@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+            integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="header">
+    <div class="header_info">
+        <img class="logo" src="assets/0d53792d4cb436e8aa72e81b6df44aba_1920.jpg">
+        <div class="header_info-description">
+            <p>Meme Generator</p>
+            <p>Choose meme and get started!</p>
+        </div>
+    </div>
+
+    <div class="header_search">
+        <input class="input" id="inp" placeholder="Search Memes" oninput="search(this.value)"  type="text">
+    </div>
+</header>
+
+<div class="gnrMemes" id="images">
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/js-base64@3.7.5/base64.min.js"></script>
+<script src="scripts/global.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>

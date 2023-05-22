@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2B2E4A;
+    color: white;
+    font-size: 25px ;
+
+}
+.logo{
+    width: 85px;
+    height: 85px;
+    border-radius: 40px;
+    margin: 0 20px 0 30px;
+}
+
+.header{
+    align-items: center;
+    display: flex;
+    height: 110px;
+    background-color: #151414;
+    justify-content: space-between;
+}
+.header_info{
+    display: flex;
+}
+.header_info-description{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.header_search{
+    margin-right: 50px;
+}
+.input{
+    width: 500px;
+    height: 25px;
+}
+
+.gnrMemes{
+    background-color: #2B2E4A;
+}
+.gnrMemes img{
+    width: 200px;
+    height: 240px;
+    margin: 20px;
+}
+
+.changeMemes{
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+}
+.goToChange{
+    width: 350px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: aqua;
+    cursor: pointer ;
+    margin-top: 10px;
+}
+.txt{
+    font-family: Raleway,sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn2{
+    width: 350px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.download{
+    width: 400px;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.block_row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.changeImg{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.successImg{
+    margin-top: 60px;
+}

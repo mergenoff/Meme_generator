@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Generate meme!</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+            integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="header">
+    <div class="header_info">
+        <a href="./index.html">
+            <img class="logo"  src="assets/0d53792d4cb436e8aa72e81b6df44aba_1920.jpg">
+        </a>
+        <div class="header_info-description">
+            <p>Meme Generator</p>
+            <p>Choose meme and get started!</p>
+        </div>
+    </div>
+</header>
+
+<div class="block_row">
+    <div class="changeImg">
+        <span id="imageName" style="font-size: 30px">ИМЯ ФАЙЛА</span>
+        <img class="changeMemes" style="width: 330px; height: 300px" src="assets/5089764.png" id="imageContentBefore">
+        <input class="goToChange" style="padding: 10px" id="inp" name="inp" placeholder="Введите текст для мема">
+        <div class="createBtn">
+        <button class="btn2" onclick="createMeme()">Create</button>
+    </div>
+</div>
+<div class="successImg">
+    <img style="width: 400px; height: 400px" src="assets/5089764.png" id="imageContentAfter">
+    <div class="downloadBtn">
+        <a id="btn" class="download" href='./assets/5f040710a48e840bbe0e4014ba4e1f5b.jpg' download="1.jpg" target="_blank">
+        <button id="btn" class="download">Download</button>
+        </a>
+    </div>
+</div>
+</div>
+
+</body>
+<script src="scripts/global.js"></script>
+<script src="scripts/memePage.js"></script>
+</html>
